@@ -38,6 +38,11 @@
   --callout-border-rgb: 172, 175, 176;
   --card-rgb: 180, 185, 188;
   --card-border-rgb: 131, 134, 135;
+  
+  --blue:#26367C;
+  --lead:#F5F7FB;
+  --light-lead:#dbcfcfe7;
+  --white:#FFFFFF;
 }
 
 @media (prefers-color-scheme: dark) {
