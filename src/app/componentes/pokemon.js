@@ -19,7 +19,7 @@ function Pokemon(){
     const[estada, setEstada]=useState("est");
     const[estadu, setEstadu]=useState("est");
     const[estadit, setEstadit]=useState("est");
-    const url="https://pokeapi.co/api/v2/pokemon/1";
+    const url="https://pokeapi.co/api/v2/pokemon/swampert";
     useEffect(()=>{
         fetch(url)
         .then(res => res.json())
@@ -50,7 +50,7 @@ function Pokemon(){
                         <p>#260</p>
                     </div>
                     
-                    <Imagen src={poke} alt="260" width={250} height={250}/>
+                    <Imagen src={poke} alt="dog" width={250} height={250}/>
                 </div>
                 <div className={style.date}>
                     <h1>About</h1> 
